@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 3</title>
+</head>
+<body>
+<script>
+     let a = parseInt(prompt("nhap a: "));
+    // code bằng if else
+    // let kq = 0;
+    // a > 0 ? kq = 1 : a < 0 ? kq = -1 : kq;
+    // alert(kq);
+//--------------------------------------------------
+//    code bằng swicth case
+    switch (a>0) {
+        case true:
+            alert(1);
+            break;
+        default:
+            switch (a < 0) {
+                case true:
+                    alert(-1);
+                    break;
+                default:
+                    alert(0);
+            }
+    }
+</script>
+
+</body>
+</html>
